@@ -26,7 +26,7 @@ function PrivacyPolicyPage() {
             <article className="max-w-3xl mx-auto">
               <h2 className="font-headline-md text-headline-md text-deep-navy mb-6">Introduction</h2>
               <div className="space-y-4 text-on-surface-variant font-body-lg leading-relaxed">
-                <p>At United Safe Environment Creators (USEC), we value the trust you place in our humanitarian mission. As part of our commitment to ethical stewardship, we treat the privacy of our donors, volunteers, and beneficiaries as a sacred responsibility.</p>
+                <p>At Humanity Beyond Crisis (HBC), we value the trust you place in our humanitarian mission. As part of our commitment to ethical stewardship, we treat the privacy of our donors, volunteers, and beneficiaries as a sacred responsibility.</p>
                 <p>This Privacy Policy outlines the types of information we collect, how it is utilized to further our global impact, and the rigorous measures we employ to ensure your data remains secure and confidential. By engaging with our services, you entrust us with your information, and we are dedicated to protecting it with the highest institutional standards.</p>
               </div>
             </article>

@@ -88,7 +88,7 @@ const handleNext = () => {
 
           <img
             src={AboutHero}
-            alt="About USEC Hero"
+            alt="About HBC Hero"
             className="h-full w-full object-cover object-[center_20%] opacity-60"
           />
 
@@ -110,7 +110,7 @@ const handleNext = () => {
           </span>
 
           <p className="max-w-2xl font-body-lg text-body-lg leading-relaxed text-white/90">
-            United Safe Environment Creators (USEC) stands as a beacon of
+            Humanity Beyond Crisis (HBC) stands as a beacon of
             institutional reliability, merging high-level security protocols
             with advanced environmental stewardship to protect our shared future.
           </p>
@@ -154,7 +154,7 @@ const handleNext = () => {
 
               <p className="mb-6 font-body-md text-body-md leading-relaxed text-on-surface-variant">
                 Established in 2015 within the Kakuma Refugee Camp in Kenya,
-                United Safe Environment Creators (USEC) is a grassroots,
+                Humanity Beyond Crisis (HBC) is a grassroots,
                 refugee-led community-based organization dedicated to fostering
                 structural resilience, human dignity, and self-reliance among
                 displaced populations.
@@ -165,14 +165,14 @@ const handleNext = () => {
                 practitioners operating directly on the frontlines of forced
                 displacement. Registered under the Ministry of Labor, Social
                 Security, and Services (Reg: SCSDO/CBO/BO-201, Certificate No.
-                38613), USEC addresses critical systemic barriers through
+                38613), HBC addresses critical systemic barriers through
                 targeted interventions in inclusive education, sustainable
                 livelihoods, and robust child protection frameworks.
               </p>
 
               <p className="font-body-md text-body-md leading-relaxed text-on-surface-variant">
                 To optimize regional impact and scale our protection frameworks,
-                USEC actively collaborates with the Global Family Reunification
+                HBC actively collaborates with the Global Family Reunification
                 Network (FRUN) to systematically reconnect separated children
                 with their families. Furthermore, our strategic integration into
                 the UNHCR EHAGL Regional Community-Based Protection Network
@@ -203,7 +203,7 @@ const handleNext = () => {
               <img
                 className="h-full w-full object-cover"
                 src={mission}
-                alt="USEC Mission"
+                alt="HBC Mission"
               />
 
             </div>
@@ -294,7 +294,7 @@ const handleNext = () => {
       <div className="md:flex md:justify-end">
 
         <p className="max-w-md font-body-md text-on-surface-variant leading-relaxed md:text-right">
-         Explore the key achievements and defining milestones that have shaped USEC’s journey from 2015 to the present.
+         Explore the key achievements and defining milestones that have shaped HBC’s journey from 2015 to the present.
         </p>
 
       </div>
@@ -429,7 +429,7 @@ const handleNext = () => {
             </h3>
 
             <p className="font-body-md text-on-surface-variant leading-7">
-              USEC was founded in response to environmental
+              HBC was founded in response to environmental
               displacement, beginning as a small grassroots team
               committed to environmental safety, humanitarian
               support, and community resilience.
@@ -457,7 +457,7 @@ const handleNext = () => {
             </h3>
 
             <p className="font-body-md text-on-surface-variant leading-7">
-              USEC strengthened its community-based approach,
+              HBC strengthened its community-based approach,
               working directly with displaced and vulnerable
               communities to improve protection, education,
               livelihoods, and environmental safety.
@@ -513,7 +513,7 @@ const handleNext = () => {
             </h3>
 
             <p className="font-body-md text-on-surface-variant leading-7">
-              USEC expanded collaboration with humanitarian
+              HBC expanded collaboration with humanitarian
               and community partners while increasing support
               for vulnerable families, young people, women,
               and refugee-led initiatives.
@@ -569,7 +569,7 @@ const handleNext = () => {
             </h3>
 
             <p className="font-body-md text-on-surface-variant leading-7">
-              USEC adapted its programs to respond to changing
+              HBC adapted its programs to respond to changing
               humanitarian needs while continuing to support
               vulnerable communities through protection,
               education, and resilience initiatives.
@@ -625,7 +625,7 @@ const handleNext = () => {
             </h3>
 
             <p className="font-body-md text-on-surface-variant leading-7">
-              USEC increased its focus on sustainable community
+              HBC increased its focus on sustainable community
               development, youth engagement, protection,
               environmental safety, and livelihood opportunities.
             </p>
@@ -679,7 +679,7 @@ const handleNext = () => {
             </h3>
 
             <p className="font-body-md text-on-surface-variant leading-7">
-              USEC strengthened its use of technology,
+              HBC strengthened its use of technology,
               partnerships, and local leadership to deliver
               impactful programs for vulnerable and displaced
               communities.
@@ -707,7 +707,7 @@ const handleNext = () => {
             </h3>
 
             <p className="font-body-md text-on-surface-variant leading-7">
-              USEC continued expanding community-led initiatives
+              HBC continued expanding community-led initiatives
               while strengthening protection, education,
               environmental safety, and sustainable livelihood
               opportunities.
@@ -735,7 +735,7 @@ const handleNext = () => {
             </h3>
 
             <p className="font-body-md text-on-surface-variant leading-7">
-              USEC continues building safer and more resilient
+              HBC continues building safer and more resilient
               communities by combining humanitarian action,
               environmental responsibility, inclusive education,
               and sustainable development.

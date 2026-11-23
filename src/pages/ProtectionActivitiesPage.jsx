@@ -35,7 +35,7 @@ const WavyBottomDivider = () => (
                   <div className="absolute inset-0 bg-deep-navy">
                     <img
                       src={protectHero}
-                      alt="About USEC Hero"
+                      alt="About HBC Hero"
                       className="w-full h-full object-cover opacity-60"
                     />
         
@@ -54,7 +54,7 @@ const WavyBottomDivider = () => (
                     </span>
         
                     <p className="font-body-lg text-body-lg max-w-2xl text-white/90 leading-relaxed">
-                     At USEC, our Child Protection Framework is more than a policy. It is a sacred promise to every child in the communities we serve. We build environments where safety is the standard, not a privilege.
+                     At HBC, our Child Protection Framework is more than a policy. It is a sacred promise to every child in the communities we serve. We build environments where safety is the standard, not a privilege.
                     </p>
                   </div>
                   <WavyBottomDivider />
@@ -622,8 +622,8 @@ const WavyBottomDivider = () => (
       <footer className="bg-primary-container text-white py-section-gap px-margin-mobile md:px-margin-desktop w-full mt-auto">
         <div className="max-w-container-max mx-auto flex flex-col items-center gap-base">
           <div className="flex items-center gap-4 mb-8">
-            <img alt="USEC Logo" className="h-12 w-auto brightness-0 invert" src="/usec-navbar-logo.png" />
-            <span className="font-headline-sm text-headline-sm text-white">USEC.org</span>
+            <img alt="HBC Logo" className="h-12 w-auto brightness-0 invert" src="/hbc-logo.svg" />
+            <span className="font-headline-sm text-headline-sm text-white">HBC</span>
           </div>
           <div className="flex flex-wrap justify-center gap-x-12 gap-y-6 mb-12 border-b border-white/10 pb-12 w-full">
             <a className="font-label-sm text-label-sm text-tertiary-fixed-dim hover:text-vibrant-orange transition-colors" href="/privacy-policy">Privacy Policy</a>
@@ -633,7 +633,7 @@ const WavyBottomDivider = () => (
             <a className="font-label-sm text-label-sm text-tertiary-fixed-dim hover:text-vibrant-orange transition-colors" href="#">Careers</a>
           </div>
           <p className="font-body-md text-body-md text-tertiary-fixed-dim text-center opacity-80">
-            (c) 2024 United Safe Environment Creators (USEC). All rights reserved. Registered Charity.
+            (c) 2024 Humanity Beyond Crisis (HBC). All rights reserved. Registered Charity.
           </p>
         </div>
       </footer>

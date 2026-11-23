@@ -357,7 +357,7 @@ function HomePage() {
         {/* Main Description */}
         <p className="font-body-lg text-sm sm:text-base md:text-lg lg:text-body-lg text-on-surface-variant leading-7 sm:leading-8 max-w-2xl mb-5 sm:mb-6">
           Established in 2015 within the Kakuma Refugee Camp in Kenya, United
-          Safe Environment Creators (USEC) is a grassroots, refugee-led
+          Safe Environment Creators (HBC) is a grassroots, refugee-led
           community-based organization dedicated to fostering structural
           resilience, human dignity, and self-reliance among displaced
           populations.
@@ -392,7 +392,7 @@ function HomePage() {
           <div className="relative z-10 overflow-hidden rounded-2xl shadow-2xl">
             <img
               src={whoHeroImage}
-              alt="USEC field teams collaborating with local communities"
+              alt="HBC field teams collaborating with local communities"
               className="object-right w-full h-[500px] md:h-[600px] lg:h-[680px] object-cover object-[95%_center] transition-transform duration-700 hover:scale-105"
             />
           </div>
@@ -490,21 +490,21 @@ function HomePage() {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-10">
               {[
                 {
-                  // region: 'United safe environment creators (Usec)',
+                  // region: 'Humanity Beyond Crisis (HBC)',
                   title: '"The Classroom That Reopened Hope"',
                   text: 'A story of how a community-led learning center gave displaced children safe access to education, mentorship, and a path back to school in the Kakuma refugee camp.',
                   img: voice1Image,
                 },
                 {
-                  // region: 'United safe environment creators (Usec)',
+                  // region: 'Humanity Beyond Crisis (HBC)',
                   title: '"Breaking The Ceiling"',
-                  text: 'A refugee woman used the skills she gained through the USEC Livelihood Program to build her confidence, become self-reliant, and inspire other women in her community.',
+                  text: 'A refugee woman used the skills she gained through the HBC Livelihood Program to build her confidence, become self-reliant, and inspire other women in her community.',
                   img: voice2Image,
                 },
                 {
-                  // region: 'United safe environment creators (Usec)',
+                  // region: 'Humanity Beyond Crisis (HBC)',
                   title: '"Safe Voices, Stronger Communities"',
-                  text: '"I am a girl refugee in Kakuma, and through USEC\'s GBV program I learned where to report abuse, how to protect myself, and how to support other girls to speak up and stay safe."',
+                  text: '"I am a girl refugee in Kakuma, and through HBC\'s GBV program I learned where to report abuse, how to protect myself, and how to support other girls to speak up and stay safe."',
                   img: voice3Image,
                 },
               ].map((story) => (
@@ -562,7 +562,7 @@ function HomePage() {
             {[
               {
                 name: 'Kakuma Refugee Camp',
-                focus: 'Education support, Livelihood skills, child protection, and GBV prevention for girls and young women. USEC works directly with refugee-led and host-community partners across key locations in Kenya/Turkana County/Kakuma Refugee Camp and Kalobeyei Settlement, supporting protection, education, and livelihood programs where they are needed most.'
+                focus: 'Education support, Livelihood skills, child protection, and GBV prevention for girls and young women. HBC works directly with refugee-led and host-community partners across key locations in Kenya/Turkana County/Kakuma Refugee Camp and Kalobeyei Settlement, supporting protection, education, and livelihood programs where they are needed most.'
               },
             ].map((location) => (
               <article
@@ -1165,11 +1165,11 @@ function HomePage() {
           <div className="grid grid-cols-1 md:grid-cols-5 gap-16 mb-20">
             <div className="col-span-1 md:col-span-1">
               <div className="mb-8 flex items-center gap-3">
-                <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuBlvQ5e2lm0xE1rYY3atWhqLQI7pau4_Tc8QEutOX_MDY_OlJj0W8tq8t-xTy7z1onRvSbREsLUaczY7kwwAfUCvHgUS74aTz91plWryteLxfI962qF0co9TeM4m4OfysO-Rf1FXaLNrE2dxjKc4vASTkZMCB1KiYrpfCAdHp1iSfQZuEijcpdLG0f5ZsRpZhI8YJI0tIS-xz-x3MUEavuHkpmgYyprECQ4JRjGhC07F1JuNn0rOQn9evIwqJTKOn4HeKcqlEyE7XxT" 
-                    alt="USEC Logo" 
+                <img src="/hbc-logo.svg"
+                    alt="HBC Logo"
                     className="h-14 md:h-16 w-auto object-contain brightness-0 invert" />
                 <div className="flex flex-col leading-none">
-                  <p className="font-extrabold text-xl md:text-2xl tracking-tight">USEC<span className="font-normal">.org</span></p>
+                  <p className="font-extrabold text-xl md:text-2xl tracking-tight">HBC<span className="font-normal text-vibrant-orange">.org</span></p>
                   <p className="mt-1 text-[8px] md:text-[9px] font-semibold uppercase tracking-[0.05em]">Community Based</p>
                   <p className="text-[8px] md:text-[9px] font-semibold uppercase tracking-[0.05em]">Organisation</p>
                 </div>
@@ -1234,7 +1234,7 @@ function HomePage() {
             </div>
           </div>
           <div className="pt-12 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-6">
-            <div className="font-label-sm text-label-sm text-white/40">© 2026 United safe environment creators (USEC). All Rights Reserved.</div>
+            <div className="font-label-sm text-label-sm text-white/40">© 2026 Humanity Beyond Crisis (HBC). All Rights Reserved.</div>
             <div className="flex gap-8 font-label-sm text-label-sm text-white/40">
               {[
                 { label: 'Privacy Policy', href: '/privacy-policy' },
@@ -1252,4 +1252,3 @@ function HomePage() {
 }
 
 export default HomePage
-

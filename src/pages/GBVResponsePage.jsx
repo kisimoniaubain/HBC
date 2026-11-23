@@ -1011,8 +1011,8 @@ const activeContent = survivorOptions[activeTab];
       <footer className="bg-primary-container text-white py-section-gap px-margin-mobile md:px-margin-desktop mt-auto">
         <div className="max-w-container-max mx-auto w-full flex flex-col items-center">
           <div className="flex items-center gap-3 mb-12">
-            <img alt="USEC Logo" className="h-10 w-auto brightness-0 invert" src="/usec-navbar-logo.png" />
-            <span className="font-headline-sm text-headline-sm text-white">USEC.org</span>
+            <img alt="HBC Logo" className="h-10 w-auto brightness-0 invert" src="/hbc-logo.svg" />
+            <span className="font-headline-sm text-headline-sm text-white">HBC</span>
           </div>
           <div className="grid grid-cols-2 md:grid-cols-5 gap-12 w-full text-center md:text-left mb-16">
             <div className="col-span-2 md:col-span-1 flex flex-col gap-4">
@@ -1040,7 +1040,7 @@ const activeContent = survivorOptions[activeTab];
             </div>
           </div>
           <div className="border-t border-white/10 pt-12 w-full text-center">
-            <p className="font-body-md text-body-md text-tertiary-fixed-dim mb-4">(c) 2024 United Safe Environment Creators (USEC). All rights reserved. Registered Charity.</p>
+            <p className="font-body-md text-body-md text-tertiary-fixed-dim mb-4">(c) 2024 Humanity Beyond Crisis (HBC). All rights reserved. Registered Charity.</p>
             <div className="flex justify-center gap-6">
               <a className="hover:text-vibrant-orange transition-colors" href="#"><span className="material-symbols-outlined">public</span></a>
               <a className="hover:text-vibrant-orange transition-colors" href="#"><span className="material-symbols-outlined">share</span></a>

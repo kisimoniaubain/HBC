@@ -31,7 +31,7 @@ const WavyBottomDivider = () => (
           <div className="absolute inset-0 bg-deep-navy">
              <img
               src={heroimo}
-              alt="About USEC Hero"
+              alt="About HBC Hero"
               className="w-full h-full object-cover opacity-60"
              />
              <div className="absolute inset-0 bg-black/60"></div>
@@ -82,7 +82,7 @@ const WavyBottomDivider = () => (
          <p className="font-body-md text-body-md text-on-surface-variant max-w-md">
           Refugee children in Kakuma who face interrupted education, trauma,
            family separation, and protection risks are at the center of our work.
-           Through our Education and Protection programs, USEC supports children
+           Through our Education and Protection programs, HBC supports children
            with play-based learning, school readiness, remedial learning,
            child-friendly safe spaces, psychosocial support, and family
           reunification pathways in partnership with protection networks.
@@ -101,7 +101,7 @@ const WavyBottomDivider = () => (
            <div className="md:w-3/5 h-[500px] md:h-[600px] overflow-hidden">
             <img
               src={server1}
-              alt="About USEC Hero"
+              alt="About HBC Hero"
               className="border-r-2 border-vibrant-orange w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
             />
             </div>
@@ -119,14 +119,14 @@ const WavyBottomDivider = () => (
               {/* <span className="material-symbols-outlined text-deep-navy text-4xl mb-6">woman</span> */}
               <h3 className="font-headline-sm text-headline-sm mb-4">Adolescent Girls & Teenage Mothers</h3>
               <p className="font-body-md text-body-md text-on-surface-variant">
-                Adolescent girls and teenage mothers in Kakuma face heightened risks of gender-based violence, early marriage, exploitation, and social exclusion. Through USEC’s GBV prevention and response programming, we provide safe referral pathways, survivor-centered support, awareness sessions on rights and protection, and practical life-skills and livelihood opportunities that help girls and young mothers rebuild confidence, safety, and long-term self-reliance.
+                Adolescent girls and teenage mothers in Kakuma face heightened risks of gender-based violence, early marriage, exploitation, and social exclusion. Through HBC’s GBV prevention and response programming, we provide safe referral pathways, survivor-centered support, awareness sessions on rights and protection, and practical life-skills and livelihood opportunities that help girls and young mothers rebuild confidence, safety, and long-term self-reliance.
               </p>
             </article>
 
             <article className="border-l-2 border-primary md:col-span-8 relative overflow-hidden h-[400px]">
               <img
                   src={server2}
-                  alt="About USEC Hero"
+                  alt="About HBC Hero"
                   className="h-screen w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
                 />
               <div className="absolute inset-0 bg-black/40 p-12 flex flex-col justify-end text-white">
@@ -165,7 +165,7 @@ const WavyBottomDivider = () => (
           </h3>
 
           <p className="font-body-md text-body-md text-on-surface-variant max-w-md">
-          Vulnerable women and caregivers in Kakuma, including single mothers and women at risk of exclusion, need practical livelihood pathways, protection referrals, and community-based support. Through USEC’s livelihoods and protection programming, we provide skills training, entrepreneurship support, case referral pathways, and rights-based community advocacy that strengthen household resilience, safety, and long-term self-reliance.
+          Vulnerable women and caregivers in Kakuma, including single mothers and women at risk of exclusion, need practical livelihood pathways, protection referrals, and community-based support. Through HBC’s livelihoods and protection programming, we provide skills training, entrepreneurship support, case referral pathways, and rights-based community advocacy that strengthen household resilience, safety, and long-term self-reliance.
          </p>
 
          <a
@@ -223,9 +223,9 @@ const WavyBottomDivider = () => (
       <footer className="bg-deep-navy text-white w-full mt-section-gap">
         <div className="flex flex-col md:flex-row justify-between items-start px-margin-mobile md:px-margin-desktop py-16 gap-gutter max-w-container-max mx-auto">
           <div className="max-w-xs">
-            <span className="font-headline-sm text-white block mb-6">USEC.org</span>
+            <span className="font-headline-sm text-white block mb-6">HBC</span>
             <p className="font-body-md text-white/60 mb-8">
-              United Safe Environment Creators is a global non-profit dedicated to serving marginalized communities through sustainable action and human-centric intervention.
+              Humanity Beyond Crisis is a global non-profit dedicated to serving marginalized communities through sustainable action and human-centric intervention.
             </p>
           </div>
           <div className="grid grid-cols-2 gap-16">

@@ -72,7 +72,7 @@ function DonatePage() {
 
       setDonationNotification({
         status:
-          "Thank you. Your donation notification has been sent successfully to the USEC team.",
+          "Thank you. Your donation notification has been sent successfully to the HBC team.",
         type: "success",
       })
 
@@ -106,7 +106,7 @@ function DonatePage() {
 
           <img
             src={donateprotect}
-            alt="Support USEC"
+            alt="Support HBC"
             className="w-full h-full object-cover opacity-60"
           />
 
@@ -133,7 +133,7 @@ function DonatePage() {
 
           {/* DESCRIPTION */}
           <p className="font-body-lg text-body-lg max-w-2xl text-white/90 leading-relaxed">
-            Join United Safe Environment Creators in our mission to provide
+            Join Humanity Beyond Crisis in our mission to provide
             dignity, safety, and sustainable futures for vulnerable communities
             around the world. Your support helps us create lasting opportunities
             for children, families, and vulnerable communities.
@@ -185,11 +185,11 @@ function DonatePage() {
             </p>
 
             <h2 className="text-2xl font-black text-primary sm:text-3xl">
-              Support USEC
+              Support HBC
             </h2>
 
             <p className="mt-3 text-sm leading-6 text-slate-600">
-              You can support United Safe Environment Creators (USEC)
+              You can support Humanity Beyond Crisis (HBC)
               through the Equity Bank account below.
             </p>
           </div>
@@ -215,7 +215,7 @@ function DonatePage() {
               </p>
 
               <p className="text-base font-bold text-primary">
-                United Safe Environment Creators (USEC)
+                Humanity Beyond Crisis (HBC)
               </p>
             </div>
 
@@ -285,7 +285,7 @@ function DonatePage() {
 
               <p className="text-xs leading-5 text-slate-600 sm:text-sm">
                 After completing your bank transfer, please use the
-                notification form on the right to let the USEC team
+                notification form on the right to let the HBC team
                 know about your donation.
               </p>
             </div>
@@ -308,7 +308,7 @@ function DonatePage() {
     <p className="mt-3 text-sm leading-6 text-slate-600">
       Once you have completed your bank transfer, fill in the
       form below. Your notification will be sent directly to
-      the USEC team.
+      the HBC team.
     </p>
   </div>
 
@@ -533,7 +533,7 @@ function DonatePage() {
 
       {isSendingDonationNotification
         ? "Sending..."
-        : "Notify USEC Team"}
+        : "Notify HBC Team"}
     </button>
 
   </form>
@@ -565,8 +565,8 @@ function DonatePage() {
 
       <footer className="bg-tertiary text-on-tertiary w-full px-margin-mobile md:px-margin-desktop py-section-gap flex flex-col items-center text-center gap-12">
         <div className="flex flex-col items-center gap-4">
-          <img alt="USEC Footer Logo" className="h-16 w-auto brightness-0 invert opacity-80" src="/usec-navbar-logo.png" />
-          <h2 className="font-headline-md text-headline-md">United Safe Environment Creators</h2>
+          <img alt="HBC Footer Logo" className="h-16 w-auto brightness-0 invert opacity-80" src="/hbc-logo.svg" />
+          <h2 className="font-headline-md text-headline-md">Humanity Beyond Crisis</h2>
           <p className="font-body-md text-body-md opacity-70 max-w-lg">Dedicated to humanitarian integrity and creating sustainable safety for the world's most vulnerable populations since 2012.</p>
         </div>
         <div className="flex flex-wrap justify-center gap-8 md:gap-16">
@@ -591,7 +591,7 @@ function DonatePage() {
         </div>
         <div className="w-full h-px bg-white/10 mt-8" />
         <div className="flex flex-col md:flex-row justify-between items-center w-full gap-4">
-          <p className="font-body-md text-body-md opacity-50">Â© 2024 USEC. Humanitarian Integrity.</p>
+          <p className="font-body-md text-body-md opacity-50">Â© 2024 HBC. Humanitarian Integrity.</p>
           <div className="flex gap-6">
             <a className="material-symbols-outlined text-white/50 hover:text-vibrant-orange transition-colors" href="#">public</a>
             <a className="material-symbols-outlined text-white/50 hover:text-vibrant-orange transition-colors" href="#">alternate_email</a>

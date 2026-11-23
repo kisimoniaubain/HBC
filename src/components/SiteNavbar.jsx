@@ -1,6 +1,5 @@
 import { useContext, useEffect, useRef, useState } from 'react'
 import TranslationContext from '../TranslationContext'
-import navlogo from '../assets/logo.png'
 import GoogleTranslate from "./GoogleTranslate";
 
 
@@ -121,15 +120,15 @@ function SiteNavbar({ activePage = 'home' }) {
       className="flex items-center gap-1 shrink-0 lg:mr-8 xl:mr-10"
     >
       <img
-        src={navlogo}
-        alt="USEC.org home"
+        src="/hbc-logo.svg"
+        alt="Humanity Beyond Crisis home"
         className="h-12 sm:h-14 md:h-20 w-auto object-contain"
       />
 
       <div className="mb-1 sm:mb-2 flex flex-col leading-none">
 
         <span className="font-extrabold text-xl sm:text-2xl md:text-3xl text-primary tracking-tight">
-          USEC<span className="text-vibrant-orange font-normal">.org</span>
+          HBC<span className="text-vibrant-orange font-normal">.org</span>
         </span>
 
         <span className="mt-0.5 sm:mt-1 text-[7px] sm:text-[9px] md:text-[10px] font-semibold uppercase tracking-[0.05em] text-on-surface-variant">
@@ -336,14 +335,14 @@ function SiteNavbar({ activePage = 'home' }) {
           <div className="flex items-center gap-2 md:gap-3 shrink-0 lg:mr-8 xl:mr-10">
           <a href="/" className="flex items-center gap-3 shrink-0">
             <img
-              src="/usec-navbar-logo.png"
-              alt="USEC Logo"
+              src="/hbc-logo.svg"
+              alt="HBC Logo"
               className="h-14 md:h-16 w-auto object-contain"
             />
 
             <div className="flex flex-col leading-none">
               <span className="font-extrabold text-xl md:text-2xl text-primary tracking-tight">
-                USEC<span className="text-vibrant-orange font-normal">.org</span>
+                HBC
               </span>
           <span className="mt-1 text-[8px] md:text-[9px] font-semibold uppercase tracking-[0.05em] text-on-surface-variant">
             Community Based<br />

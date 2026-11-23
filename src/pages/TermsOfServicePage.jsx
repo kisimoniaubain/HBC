@@ -14,7 +14,7 @@ function TermsOfServicePage() {
           <div className="relative z-10 mx-auto w-full max-w-5xl px-4 text-center">
             <span className="font-label-sm text-label-sm uppercase tracking-[0.22em] text-white/70">Governance & Transparency</span>
             <h1 className="mt-4 font-display-lg text-display-lg-mobile md:text-display-lg text-white">Governance & Transparency</h1>
-            <p className="mt-4 max-w-3xl mx-auto font-body-lg text-body-lg text-white/90">Please review these terms before using USEC’s digital platform. By continuing to use our services, you accept the operational and ethical expectations described here.</p>
+            <p className="mt-4 max-w-3xl mx-auto font-body-lg text-body-lg text-white/90">Please review these terms before using HBC’s digital platform. By continuing to use our services, you accept the operational and ethical expectations described here.</p>
             <div className="mt-8 flex justify-center">
               <div className="h-1 w-24 bg-vibrant-orange rounded-full" />
             </div>
@@ -48,7 +48,7 @@ function TermsOfServicePage() {
                 </div>
                 <div className="bg-white p-8 rounded-xl editorial-shadow border border-surface-container-high space-y-4">
                   <p className="font-body-lg text-body-lg text-on-surface-variant leading-relaxed">
-                    Welcome to United Safe Environment Creators (USEC). Accessing or using our website and connected services means you accept these Terms of Service. These terms govern the relationship between you and USEC while using our digital platform.
+                    Welcome to Humanity Beyond Crisis (HBC). Accessing or using our website and connected services means you accept these Terms of Service. These terms govern the relationship between you and HBC while using our digital platform.
                   </p>
                   <p className="font-body-md text-body-md text-on-surface-variant">
                     If you do not accept these terms, please do not continue using our services. We reserve the right to restrict access for anyone who abuses or misuses the platform.
@@ -64,7 +64,7 @@ function TermsOfServicePage() {
                   <h2 className="font-headline-md text-headline-md text-primary">2. User Conduct</h2>
                 </div>
                 <div className="bg-white p-8 rounded-xl editorial-shadow border border-surface-container-high">
-                  <p className="font-body-lg text-body-lg text-on-surface-variant mb-6">All users must uphold USEC’s humanitarian values while engaging with the platform. Prohibited behavior includes the following:</p>
+                  <p className="font-body-lg text-body-lg text-on-surface-variant mb-6">All users must uphold HBC’s humanitarian values while engaging with the platform. Prohibited behavior includes the following:</p>
                   <ul className="space-y-4">
                     <li className="flex gap-4">
                       <span className="material-symbols-outlined text-vibrant-orange">check_circle</span>
@@ -76,7 +76,7 @@ function TermsOfServicePage() {
                     </li>
                     <li className="flex gap-4">
                       <span className="material-symbols-outlined text-vibrant-orange">check_circle</span>
-                      <span className="font-body-md text-on-surface-variant">Impersonating others or misrepresenting your affiliation with USEC or its partners.</span>
+                      <span className="font-body-md text-on-surface-variant">Impersonating others or misrepresenting your affiliation with HBC or its partners.</span>
                     </li>
                     <li className="flex gap-4">
                       <span className="material-symbols-outlined text-vibrant-orange">check_circle</span>
@@ -95,10 +95,10 @@ function TermsOfServicePage() {
                 </div>
                 <div className="bg-white p-8 rounded-xl editorial-shadow border border-surface-container-high space-y-4">
                   <p className="font-body-md text-body-md text-on-surface-variant">
-                    All content on USEC.org, including text, images, logos, audio, and software, is owned by USEC or licensed partners. You may not reuse or redistribute this content without explicit permission.
+                    All content on HBC, including text, images, logos, audio, and software, is owned by HBC or licensed partners. You may not reuse or redistribute this content without explicit permission.
                   </p>
                   <div className="p-6 bg-surface-cream rounded-lg border-l-4 border-primary">
-                    <p className="italic font-body-md text-primary">The USEC brand is a symbol of trust. Misusing our identity or materials for fraudulent purposes undermines the communities we serve.</p>
+                    <p className="italic font-body-md text-primary">The HBC brand is a symbol of trust. Misusing our identity or materials for fraudulent purposes undermines the communities we serve.</p>
                   </div>
                 </div>
               </section>
@@ -112,10 +112,10 @@ function TermsOfServicePage() {
                 </div>
                 <div className="bg-white p-8 rounded-xl editorial-shadow border border-surface-container-high">
                   <p className="font-body-md text-body-md text-on-surface-variant leading-relaxed mb-6">
-                    To the maximum extent permitted by law, USEC is not responsible for indirect or special damages, lost earnings, or any other losses that may arise from your use of this website.
+                    To the maximum extent permitted by law, HBC is not responsible for indirect or special damages, lost earnings, or any other losses that may arise from your use of this website.
                   </p>
                   <p className="font-body-md text-body-md text-on-surface-variant">
-                    USEC also does not guarantee that the platform will be uninterrupted or error-free, and disclaims responsibility for any loss arising from technical or operational failures.
+                    HBC also does not guarantee that the platform will be uninterrupted or error-free, and disclaims responsibility for any loss arising from technical or operational failures.
                   </p>
                 </div>
               </section>
@@ -129,7 +129,7 @@ function TermsOfServicePage() {
                 </div>
                 <div className="bg-white p-8 rounded-xl editorial-shadow border border-surface-container-high">
                   <p className="font-body-md text-body-md text-on-surface-variant">
-                    USEC may update these Terms from time to time. If a change is significant, we will provide advance notice and clearly communicate the new terms before they take effect.
+                    HBC may update these Terms from time to time. If a change is significant, we will provide advance notice and clearly communicate the new terms before they take effect.
                   </p>
                   <div className="mt-8">
                     <button className="bg-primary text-white px-8 py-3 rounded hover:bg-deep-navy transition-colors font-bold text-label-md">I UNDERSTAND AND AGREE</button>

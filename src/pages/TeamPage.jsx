@@ -75,7 +75,7 @@ const WavyBottomDivider = () => (
               Meet the Architects of Change
             </h1>
               <p className="font-body-lg text-body-lg text-white/90 max-w-lg">
-                United Safe Environment Creators is driven by a global collective of experts, visionaries, and community leaders dedicated to sustainable humanitarian progress.
+                Humanity Beyond Crisis is driven by a global collective of experts, visionaries, and community leaders dedicated to sustainable humanitarian progress.
               </p>
             </div>
           </div>
@@ -230,8 +230,8 @@ const WavyBottomDivider = () => (
         <div className="flex flex-col md:flex-row justify-between items-center px-margin-mobile md:px-margin-desktop py-12 gap-gutter max-w-container-max mx-auto">
           <div className="flex flex-col items-center md:items-start gap-4">
             <div className="flex items-center gap-3">
-              <img alt="USEC Logo" className="h-8 w-auto brightness-0 invert opacity-80" src="/usec-navbar-logo.png" />
-              <span className="font-headline-sm text-white">USEC.org</span>
+              <img alt="HBC Logo" className="h-8 w-auto brightness-0 invert opacity-80" src="/hbc-logo.svg" />
+              <span className="font-headline-sm text-white">HBC</span>
             </div>
             <p className="font-body-md text-white/60 text-center md:text-left max-w-xs">
               Building resilience and hope through environmental stewardship and community empowerment.
@@ -243,7 +243,7 @@ const WavyBottomDivider = () => (
               <a className="font-body-md text-white/80 hover:text-vibrant-orange transition-colors" href="/terms-of-service">Terms of Service</a>
               <a className="font-body-md text-white/80 hover:text-vibrant-orange transition-colors" href="/faqs">FAQ</a>
             </div>
-            <p className="font-body-md text-white/60">(c) 2024 United Safe Environment Creators (USEC). All rights reserved.</p>
+            <p className="font-body-md text-white/60">(c) 2024 Humanity Beyond Crisis (HBC). All rights reserved.</p>
           </div>
         </div>
       </footer>

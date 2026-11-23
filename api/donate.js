@@ -4,7 +4,7 @@ const DEFAULT_DONATION_RECIPIENT = process.env.DONATION_EMAIL_TO || process.env.
 
 const getEquityBankDetails = () => ({
   bankName: 'Equity Bank',
-  accountName: process.env.EQUITY_BANK_ACCOUNT_NAME || 'United Safe Environment Creators',
+  accountName: process.env.EQUITY_BANK_ACCOUNT_NAME || 'Humanity Beyond Crisis',
   accountNumber: process.env.EQUITY_BANK_ACCOUNT_NUMBER || 'Set EQUITY_BANK_ACCOUNT_NUMBER in Vercel env',
   branch: process.env.EQUITY_BANK_BRANCH || 'Set EQUITY_BANK_BRANCH in Vercel env',
   swift: process.env.EQUITY_BANK_SWIFT || 'Set EQUITY_BANK_SWIFT in Vercel env',
@@ -65,7 +65,7 @@ export default async function handler(req, res) {
   const emailDeliveryEnabled = Boolean(smtpUser && smtpPass && !hasDummyGmailPassword)
 
   const equityBankDetails = getEquityBankDetails()
-  const reference = `USEC-${donationFrequency.toUpperCase()}-${Date.now()}`
+  const reference = `HBC-${donationFrequency.toUpperCase()}-${Date.now()}`
 
   try {
     if (emailDeliveryEnabled) {
@@ -78,7 +78,7 @@ export default async function handler(req, res) {
       })
 
       const emailText = `
-New USEC Donation Request
+New HBC Donation Request
 
 Donor: ${donorFirstName} ${donorLastName}
 Email: ${donorEmail}
@@ -96,14 +96,14 @@ SWIFT: ${equityBankDetails.swift}
     `.trim()
 
       await transporter.sendMail({
-        from: `USEC Donations <${smtpUser}>`,
+        from: `HBC Donations <${smtpUser}>`,
         to: DEFAULT_DONATION_RECIPIENT,
         replyTo: donorEmail,
-        subject: `New USEC donation request - ${reference}`,
+        subject: `New HBC donation request - ${reference}`,
         text: emailText,
         html: `
           <div style="font-family: Arial, sans-serif; padding: 24px; color: #0f172a;">
-            <h2 style="margin-bottom: 16px; color: #0f172a;">New USEC donation request</h2>
+            <h2 style="margin-bottom: 16px; color: #0f172a;">New HBC donation request</h2>
             <p><strong>Donor:</strong> ${donorFirstName} ${donorLastName}</p>
             <p><strong>Email:</strong> ${donorEmail}</p>
             <p><strong>Amount:</strong> ${donationAmount.toFixed(2)} ${equityBankDetails.currency}</p>
@@ -146,7 +146,7 @@ SWIFT: ${equityBankDetails.swift}
     console.error('Donation email error:', error)
 
     return res.status(500).json({
-      error: 'Failed to process the donation request. Please try again or contact USEC directly.',
+      error: 'Failed to process the donation request. Please try again or contact HBC directly.',
     })
   }
 }

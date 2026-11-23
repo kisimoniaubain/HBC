@@ -784,9 +784,9 @@ const activeContent = learningOptions[activeTab]
         <div className="max-w-container-max mx-auto w-full">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-16">
             <div className="col-span-1 md:col-span-2">
-              <h3 className="font-headline-sm text-white mb-6">USEC.org</h3>
+              <h3 className="font-headline-sm text-white mb-6">HBC</h3>
               <p className="font-body-md text-tertiary-fixed-dim max-w-sm mb-6">
-                United Safe Environment Creators (USEC) is committed to building sustainable futures for displaced populations through innovation, compassion, and strategic economic empowerment.
+                Humanity Beyond Crisis (HBC) is committed to building sustainable futures for displaced populations through innovation, compassion, and strategic economic empowerment.
               </p>
               <div className="flex gap-4">
                 <a className="w-10 h-10 rounded-full border border-outline-variant flex items-center justify-center hover:bg-vibrant-orange transition-colors" href="#"><span className="material-symbols-outlined text-sm">share</span></a>

@@ -1,6 +1,5 @@
 import { useState } from 'react'
 import LanguageSelector from './LanguageSelector'
-import footerlogo from '../assets/logo.png'
 
 function HomeFooter({ language, setLanguage, t, languages }) {
   const [subscriberEmail, setSubscriberEmail] = useState('')
@@ -96,14 +95,14 @@ const socialLinks = [
       className="mb-8 flex shrink-0 items-center gap-1 lg:mr-8 xl:mr-10"
     >
       <img
-        src={footerlogo}
-        alt="USEC.org home"
+        src="/hbc-logo.svg"
+        alt="Humanity Beyond Crisis home"
         className="h-16 w-auto object-contain brightness-0 invert md:h-20"
       />
 
       <div className="mb-2 flex flex-col leading-none">
         <span className="text-2xl font-extrabold tracking-tight md:text-3xl">
-          USEC<span className="font-normal">.org</span>
+          HBC<span className="font-normal text-vibrant-orange">.org</span>
         </span>
 
         <span className="mt-1 text-[9px] font-semibold uppercase tracking-[0.05em] md:text-[10px]">
@@ -337,7 +336,7 @@ const socialLinks = [
         </div>
         <div className="pt-8 border-t border-white/10 flex justify-center">
         <div className="text-center text-[10px] text-white/40 sm:text-xs md:text-label-sm">
-          © 2026 United Safe Environment Creators (USEC). All Rights Reserved.
+          © 2026 Humanity Beyond Crisis (HBC). All Rights Reserved.
         </div>
         </div>
       </div>

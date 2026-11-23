@@ -923,19 +923,19 @@ function GalleryPage() {
           <div className="flex items-center gap-3">
 
             <img
-              alt="USEC Logo White"
+              alt="HBC Logo White"
               className="h-8 w-auto brightness-0 invert"
-              src="/usec-navbar-logo.png"
+              src="/hbc-logo.svg"
             />
 
             <span className="font-headline-sm text-headline-sm text-white">
-              USEC.org
+              HBC
             </span>
 
           </div>
 
           <p className="font-body-md text-body-md text-surface-variant/80 max-w-sm">
-            United Safe Environment Creators is dedicated to building sustainable
+            Humanity Beyond Crisis is dedicated to building sustainable
             futures for vulnerable communities across the globe.
           </p>
 
@@ -977,7 +977,7 @@ function GalleryPage() {
           </nav>
 
           <p className="font-label-sm text-label-sm text-surface-variant/60">
-            (c) 2024 United Safe Environment Creators. All Rights Reserved.
+            (c) 2024 Humanity Beyond Crisis. All Rights Reserved.
           </p>
 
         </div>

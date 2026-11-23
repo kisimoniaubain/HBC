@@ -628,7 +628,7 @@ const WavyBottomDivider = () => (
         </span>
 
         <h2 className="font-display-lg text-display-lg-mobile md:text-display-lg text-deep-navy">
-          Discover USEC in Action
+          Discover HBC in Action
         </h2>
 
         <p className="mt-6 font-body-lg text-body-lg text-on-surface-variant leading-relaxed">
@@ -686,7 +686,7 @@ const WavyBottomDivider = () => (
     <iframe
       className="w-full h-full"
       src="https://www.youtube.com/embed/by_uU8NtKPg"
-      title="USEC Documentary"
+      title="HBC Documentary"
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
       allowFullScreen
     />
@@ -746,7 +746,7 @@ const WavyBottomDivider = () => (
       <footer className="w-full py-section-gap px-margin-mobile md:px-margin-desktop flex flex-col md:flex-row justify-between items-start gap-base bg-primary text-white">
         <div className="max-w-sm mb-12 md:mb-0">
           <div className="flex items-center gap-3 mb-6">
-            <span className="font-headline-sm text-headline-sm text-white">USEC.org</span>
+            <span className="font-headline-sm text-headline-sm text-white">HBC</span>
           </div>
           <p className="font-body-md text-body-md text-surface-variant/70 mb-8">Building resilient foundations for humanity and the environment through innovative humanitarian programs and localized advocacy.</p>
           <div className="flex gap-4">
@@ -777,7 +777,7 @@ const WavyBottomDivider = () => (
         </div>
 
         <div className="w-full mt-12 pt-12 border-t border-on-primary-fixed-variant flex flex-col md:flex-row justify-between items-center gap-4">
-          <span className="font-label-sm text-label-sm text-on-primary-container">Â© 2024 United Safe Environment Creators. All Rights Reserved.</span>
+          <span className="font-label-sm text-label-sm text-on-primary-container">Â© 2024 Humanity Beyond Crisis. All Rights Reserved.</span>
           <div className="flex gap-8">
             <a className="font-label-sm text-label-sm text-surface-variant hover:text-vibrant-orange underline transition-colors" href="/privacy-policy">Privacy Policy</a>
             <a className="font-label-sm text-label-sm text-surface-variant hover:text-vibrant-orange transition-colors" href="/terms-of-service">Terms of Service</a>

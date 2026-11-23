@@ -12,15 +12,15 @@ const categories = [
 const faqItems = [
   {
     category: 'organization',
-    question: 'What is the primary mission of USEC?',
+    question: 'What is the primary mission of HBC?',
     answer:
-      'United Safe Environment Creators (USEC) is dedicated to fostering sustainable human-environment interactions. Our primary mission is to protect fragile ecosystems while empowering local communities through education, resource management, and direct intervention programs. We believe that a safe environment is a fundamental human right.',
+      'Humanity Beyond Crisis (HBC) is dedicated to fostering sustainable human-environment interactions. Our primary mission is to protect fragile ecosystems while empowering local communities through education, resource management, and direct intervention programs. We believe that a safe environment is a fundamental human right.',
   },
   {
     category: 'donations',
     question: 'How can I ensure my donation is being used effectively?',
     answer:
-      "Transparency is a core value of USEC. We publish audited financial reports annually and provide regular impact updates via our 'Our Impact' dashboard. Over 85% of every donation goes directly toward field programs. You can track the specific progress of campaigns you've contributed to through your donor portal account.",
+      "Transparency is a core value of HBC. We publish audited financial reports annually and provide regular impact updates via our 'Our Impact' dashboard. Over 85% of every donation goes directly toward field programs. You can track the specific progress of campaigns you've contributed to through your donor portal account.",
   },
   {
     category: 'programs',
@@ -36,7 +36,7 @@ const faqItems = [
   },
   {
     category: 'programs',
-    question: 'Does USEC offer educational resources for schools?',
+    question: 'Does HBC offer educational resources for schools?',
     answer:
       "Absolutely. Our Earth Educators program provides free, curriculum-aligned resources for teachers and community leaders. We also offer virtual field trips and guest speaker sessions for schools participating in our Green Campus initiative. These can be requested through our educational outreach channels.",
   },
@@ -192,8 +192,8 @@ const WavyBottomDivider = () => (
         <div className="flex flex-col md:flex-row justify-between items-center px-margin-mobile md:px-margin-desktop py-12 gap-gutter max-w-container-max mx-auto">
           <div className="flex flex-col items-center md:items-start gap-4">
             <div className="flex items-center gap-2">
-              <img alt="USEC Logo" className="h-8 w-auto invert" src="/usec-navbar-logo.png" />
-              <span className="font-headline-sm text-white">USEC.org</span>
+              <img alt="HBC Logo" className="h-8 w-auto invert" src="/hbc-logo.svg" />
+              <span className="font-headline-sm text-white">HBC</span>
             </div>
             <p className="font-body-md text-white/60 max-w-xs text-center md:text-left">Empowering safe environment creators since 2010.</p>
           </div>
@@ -210,7 +210,7 @@ const WavyBottomDivider = () => (
               <button className="p-2 bg-white/10 rounded-full hover:bg-white/20 transition-all" type="button"><span className="material-symbols-outlined">rss_feed</span></button>
               <button className="p-2 bg-white/10 rounded-full hover:bg-white/20 transition-all" type="button"><span className="material-symbols-outlined">public</span></button>
             </div>
-            <span className="font-body-md text-white/60 text-sm">(c) 2024 United Safe Environment Creators (USEC). All rights reserved.</span>
+            <span className="font-body-md text-white/60 text-sm">(c) 2024 Humanity Beyond Crisis (HBC). All rights reserved.</span>
           </div>
         </div>
       </footer>

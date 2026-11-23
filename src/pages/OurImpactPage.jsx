@@ -821,7 +821,7 @@ const WavyBottomDivider = () => (
           <div className="order-1 space-y-6 sm:space-y-8 md:order-2">
 
             <blockquote className="font-headline-md text-xl leading-relaxed text-deep-navy italic sm:text-2xl sm:leading-relaxed md:text-headline-md md:leading-relaxed">
-              "Before USEC arrived, our community struggled with both food security
+              "Before HBC arrived, our community struggled with both food security
               and seasonal floods. Today, our terraces are green, and our children
               are safe. We did not just get aid; we got a future."
             </blockquote>
@@ -880,8 +880,8 @@ const WavyBottomDivider = () => (
       <footer className="w-full py-section-gap px-margin-mobile md:px-margin-desktop bg-primary flex flex-col md:flex-row justify-between items-start md:items-center gap-base border-t border-on-primary-fixed-variant">
         <div className="max-w-xs">
           <div className="flex items-center gap-3 mb-6">
-            <img alt="USEC Logo" className="h-8 w-auto brightness-0 invert" src="/usec-navbar-logo.png" />
-            <span className="font-headline-sm text-headline-sm text-white">USEC.org</span>
+            <img alt="HBC Logo" className="h-8 w-auto brightness-0 invert" src="/hbc-logo.svg" />
+            <span className="font-headline-sm text-headline-sm text-white">HBC</span>
           </div>
           <p className="text-on-primary-container text-sm mb-4">Dedicated to creating safe, sustainable environments for humanity to thrive globally.</p>
         </div>
@@ -905,7 +905,7 @@ const WavyBottomDivider = () => (
         </div>
 
         <div className="w-full md:w-auto border-t md:border-t-0 border-on-primary-fixed-variant pt-8 md:pt-0">
-          <p className="text-surface-variant text-xs mb-4">Â© 2024 United Safe Environment Creators. All Rights Reserved.</p>
+          <p className="text-surface-variant text-xs mb-4">Â© 2024 Humanity Beyond Crisis. All Rights Reserved.</p>
           <div className="flex gap-4">
             <a className="w-10 h-10 rounded-full border border-on-primary-fixed-variant flex items-center justify-center text-white hover:border-vibrant-orange hover:text-vibrant-orange transition-colors" href="#">
               <span className="material-symbols-outlined text-sm">public</span>

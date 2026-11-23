@@ -90,7 +90,7 @@ const handleSubmit = async (event) => {
     setStatus({
       type: 'success',
       message:
-        "Thank you for contacting USEC! We'll get back to you as soon as possible.",
+        "Thank you for contacting HBC! We'll get back to you as soon as possible.",
     });
 
     setFormData({
@@ -201,7 +201,7 @@ const handleSubmit = async (event) => {
           <div className="absolute inset-0 bg-[#0B1F3A]">
             <img
               src={contacthero}
-              alt="Contact USEC"
+              alt="Contact HBC"
               className="h-full w-full object-cover opacity-60"
             />
 
@@ -255,7 +255,7 @@ const handleSubmit = async (event) => {
 
                   <p className="mt-5 max-w-xl font-body-lg text-body-lg leading-relaxed text-on-surface-variant">
                     Whether you are interested in volunteering, partnering
-                    with USEC, supporting our community projects, or simply
+                    with HBC, supporting our community projects, or simply
                     learning more about our activities, send us a message.
                   </p>
 
@@ -588,7 +588,7 @@ const handleSubmit = async (event) => {
           <div className="container relative z-10 mx-auto max-w-3xl px-4 text-center text-white sm:px-6">
 
             <span className="mb-4 block text-[10px] font-bold uppercase tracking-[0.3em] text-vibrant-orange sm:text-xs">
-              United Safe Environment Creators
+              Humanity Beyond Crisis
             </span>
 
             <h2 className="font-headline-md text-headline-md">
@@ -615,13 +615,13 @@ const handleSubmit = async (event) => {
         <div className="mx-auto flex max-w-6xl flex-col items-center text-center">
 
           <img
-            alt="USEC Footer Logo"
+            alt="HBC Footer Logo"
             className="h-16 w-auto opacity-80 brightness-0 invert"
-            src="/usec-navbar-logo.png"
+            src="/hbc-logo.svg"
           />
 
           <h2 className="mt-4 font-headline-md text-headline-md">
-            United Safe Environment Creators
+            Humanity Beyond Crisis
           </h2>
 
           <p className="mt-3 max-w-lg font-body-md text-body-md opacity-70">
@@ -724,7 +724,7 @@ const handleSubmit = async (event) => {
           <div className="mt-6 flex w-full flex-col items-center justify-between gap-4 md:flex-row">
 
             <p className="font-body-md text-body-md opacity-50">
-              © 2024 USEC. Humanitarian Integrity.
+              © 2024 HBC. Humanitarian Integrity.
             </p>
 
             <div className="flex gap-6">

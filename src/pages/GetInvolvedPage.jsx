@@ -58,7 +58,7 @@ const WavyBottomDivider = () => (
   <div className="absolute inset-0 bg-deep-navy">
     <img
       src={gethero}
-      alt="Get involved with USEC"
+      alt="Get involved with HBC"
       className="w-full h-full object-cover opacity-60"
     />
 
@@ -79,7 +79,7 @@ const WavyBottomDivider = () => (
 
     {/* Description */}
     <p className="font-body-lg text-body-lg max-w-2xl text-white/90 leading-relaxed mb-10">
-      United Safe Environment Creators (USEC) relies on the compassion of
+      Humanity Beyond Crisis (HBC) relies on the compassion of
       individuals like you to provide dignity, safety, and hope to displaced
       communities.
     </p>
@@ -604,14 +604,14 @@ const WavyBottomDivider = () => (
       <footer className="w-full py-section-gap px-margin-mobile md:px-margin-desktop flex flex-col md:flex-row justify-between items-start md:items-center gap-base bg-primary text-white border-t border-on-primary-fixed-variant reveal-group transition-all duration-1000 opacity-0 translate-y-10">
         <div className="flex flex-col gap-4">
           <div className="flex items-center gap-3">
-            <img alt="USEC Logo" className="h-8 w-auto brightness-0 invert" src="/usec-navbar-logo.png" />
-            <span className="font-headline-sm text-headline-sm text-white">USEC.org</span>
+            <img alt="HBC Logo" className="h-8 w-auto brightness-0 invert" src="/hbc-logo.svg" />
+            <span className="font-headline-sm text-headline-sm text-white">HBC</span>
           </div>
           <p className="font-body-md text-body-md text-on-primary-container max-w-sm">
-            United Safe Environment Creators is a registered non-profit organization dedicated to humanitarian aid and environmental preservation.
+            Humanity Beyond Crisis is a registered non-profit organization dedicated to humanitarian aid and environmental preservation.
           </p>
           <p className="font-label-sm text-label-sm text-surface-variant mt-4">
-            (c) 2024 United Safe Environment Creators. All Rights Reserved.
+            (c) 2024 Humanity Beyond Crisis. All Rights Reserved.
           </p>
         </div>
 

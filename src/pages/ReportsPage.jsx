@@ -22,22 +22,22 @@ const reports = [
   {
     year: '2025',
     category: 'Annual Reports',
-    title: 'USEC Annual Impact Report 2025',
+    title: 'HBC Annual Impact Report 2025',
     description:
-      'A review of USEC programs, achievements, challenges, and impact during 2026.',
+      'A review of HBC programs, achievements, challenges, and impact during 2026.',
     categoryDescription:
-      'Explore USEC annual impact reports highlighting our programs, achievements, challenges, and the communities we served.',
-    file: '/reports/usec-annual-impact-report-2025.pdf',
+      'Explore HBC annual impact reports highlighting our programs, achievements, challenges, and the communities we served.',
+    file: '/reports/hbc-annual-impact-report-2025.pdf',
   },
   {
     year: '2026',
     category: 'Annual Reports',
-    title: 'USEC Annual Impact Report 2026',
+    title: 'HBC Annual Impact Report 2026',
     description:
-      'A review of USEC programs, achievements, challenges, and impact during 2026.',
+      'A review of HBC programs, achievements, challenges, and impact during 2026.',
     categoryDescription:
-      'Explore USEC annual impact reports highlighting our programs, achievements, challenges, and the communities we served.',
-    file: '/reports/usec-annual-impact-report-2026.pdf',
+      'Explore HBC annual impact reports highlighting our programs, achievements, challenges, and the communities we served.',
+    file: '/reports/hbc-annual-impact-report-2026.pdf',
   },
   ]
 export default function ReportsPage() {
@@ -71,7 +71,7 @@ const categories = [
 
         <img
         src={contacthero}
-        alt="USEC reports and publications"
+        alt="HBC reports and publications"
         className="w-full h-full object-cover object-[center_top] opacity-60"
         />
 
@@ -127,7 +127,7 @@ const categories = [
       </h2>
 
       <p className="mt-6 max-w-2xl font-body-lg text-body-lg leading-relaxed text-on-surface-variant">
-        Explore USEC's reports, publications, financial statements, and
+        Explore HBC's reports, publications, financial statements, and
         other documents that highlight our work, impact, transparency,
         and commitment to the communities we serve.
       </p>
@@ -205,7 +205,7 @@ const categories = [
               {/* Description */}
               <p className="mt-7 max-w-xl font-body-md text-body-md leading-relaxed text-slate-700">
                 {categoryReports[0].categoryDescription ||
-                  `Explore our ${category.toLowerCase()} and learn more about USEC's work, progress, and impact.`}
+                  `Explore our ${category.toLowerCase()} and learn more about HBC's work, progress, and impact.`}
               </p>
 
 

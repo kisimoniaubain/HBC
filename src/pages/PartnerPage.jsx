@@ -54,12 +54,12 @@ const PartnerPage = () => {
             </span>
 
             <h1 className="mb-6 font-display-lg text-5xl font-bold leading-tight text-white md:text-6xl lg:text-7xl">
-              Partner With USEC
+              Partner With HBC
             </h1>
 
             <p className="mb-10 max-w-2xl font-body-lg text-lg leading-relaxed text-white/90 md:text-xl">
               Together, we can strengthen communities, expand opportunities,
-              and create lasting change. Partner with USEC to support
+              and create lasting change. Partner with HBC to support
               community-led solutions and sustainable development.
             </p>
 
@@ -99,13 +99,13 @@ const PartnerPage = () => {
               </span>
 
               <h2 className="mb-6 font-display-lg text-4xl font-bold leading-tight text-deep-navy md:text-5xl">
-                Why Partner With USEC?
+                Why Partner With HBC?
               </h2>
 
               <div className="mb-6 h-[3px] w-20 border-b-2 border-dashed border-vibrant-orange"></div>
 
               <p className="mb-6 font-body-md leading-8 text-gray-600">
-                USEC works closely with communities to address challenges,
+                HBC works closely with communities to address challenges,
                 strengthen resilience, and create opportunities for vulnerable
                 groups. Our community-led approach allows partners to connect
                 resources and expertise with real community needs.
@@ -125,7 +125,7 @@ const PartnerPage = () => {
 
               <img
                 src={partnersec2}
-                alt="USEC community partnership"
+                alt="HBC community partnership"
                 className="h-[500px] w-full object-cover transition-transform duration-700 hover:scale-105"
               />
 
@@ -264,7 +264,7 @@ const PartnerPage = () => {
                 </h3>
 
                 <p className="font-body-md leading-relaxed text-white/90 transition-colors duration-500 group-hover:text-deep-navy">
-                  Work with USEC through corporate social responsibility,
+                  Work with HBC through corporate social responsibility,
                   employee engagement, sponsorships, and shared community
                   initiatives.
                 </p>
@@ -686,7 +686,7 @@ const PartnerPage = () => {
                     </span>
 
                     <h2 className="mb-5 font-display-lg text-3xl font-bold leading-tight text-white md:text-4xl lg:text-5xl">
-                      Interested in Partnering With USEC?
+                      Interested in Partnering With HBC?
                     </h2>
 
                     <p className="max-w-xl text-base leading-7 text-white/80 md:text-lg">

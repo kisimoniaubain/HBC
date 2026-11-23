@@ -13,7 +13,7 @@ function AnnualReportsPage() {
           <div className="max-w-container-max mx-auto">
             <span className="font-label-md text-label-md text-vibrant-orange tracking-widest uppercase mb-4 block">Transparency</span>
             <h1 className="font-display-lg text-display-lg-mobile md:text-display-lg text-deep-navy mb-6">Annual Reports</h1>
-            <p className="font-body-lg text-body-lg text-on-surface-variant max-w-3xl">Browse USEC annual performance summaries, funding breakdowns, and field impact outcomes across our global programs.</p>
+            <p className="font-body-lg text-body-lg text-on-surface-variant max-w-3xl">Browse HBC annual performance summaries, funding breakdowns, and field impact outcomes across our global programs.</p>
           </div>
         </section>
 

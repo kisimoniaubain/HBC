@@ -56,12 +56,12 @@ const Volunteer = () => {
             </span>
 
             <h1 className="mb-6 font-display-lg text-5xl font-bold leading-tight text-white md:text-6xl lg:text-7xl">
-              Volunteer With USEC
+              Volunteer With HBC
             </h1>
 
             <p className="mb-10 max-w-2xl font-body-lg text-lg leading-relaxed text-white/90 md:text-xl">
               Your time, skills, and passion can help us create safer,
-              stronger, and more inclusive communities. Join USEC and become
+              stronger, and more inclusive communities. Join HBC and become
               part of a movement creating meaningful change.
             </p>
           </div>
@@ -110,7 +110,7 @@ const Volunteer = () => {
               <div className="mb-6 h-[3px] w-20 border-b-2 border-dashed border-vibrant-orange"></div>
 
               <p className="mb-6 font-body-md leading-8 text-gray-600">
-                At USEC, volunteers are an important part of our community-led
+                At HBC, volunteers are an important part of our community-led
                 approach. By sharing your time, knowledge, and skills, you can
                 contribute to programs that support vulnerable communities and
                 promote sustainable development.
@@ -368,7 +368,7 @@ const Volunteer = () => {
               </h2>
 
               <p className="mb-8 font-body-md leading-8 text-gray-600">
-                Volunteering with USEC is an opportunity to learn, contribute,
+                Volunteering with HBC is an opportunity to learn, contribute,
                 and connect with people who are working toward a better future.
               </p>
 
@@ -488,7 +488,7 @@ const Volunteer = () => {
 
                     <p className="max-w-xl text-base leading-7 text-white/80 md:text-lg">
                       Contact our team to learn more about current volunteer
-                      opportunities and how you can get involved with USEC.
+                      opportunities and how you can get involved with HBC.
                     </p>
 
                   </div>

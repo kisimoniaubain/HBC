@@ -87,7 +87,7 @@ const server = http.createServer(async (req, res) => {
     if (req.method === 'GET' && req.url === '/api/health') {
       return withResHelpers(res).status(200).json({
         ok: true,
-        message: 'USEC API is running',
+        message: 'HBC API is running',
       });
     }
 

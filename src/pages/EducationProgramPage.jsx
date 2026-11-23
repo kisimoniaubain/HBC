@@ -126,7 +126,7 @@ const activeProgramContent = programOptions[activeProgram];
 
        {/* Description */}
       <p className="font-body-lg text-body-lg max-w-2xl text-white/90 mb-8">
-        At USEC, we believe education is the single most powerful tool for
+        At HBC, we believe education is the single most powerful tool for
         breaking the cycle of poverty and creating resilient communities.
       </p>
        </div>
@@ -709,10 +709,10 @@ const activeProgramContent = programOptions[activeProgram];
         <div className="max-w-container-max w-full grid grid-cols-1 md:grid-cols-4 gap-12 mb-16">
           <div className="md:col-span-1">
             <div className="flex items-center gap-2 mb-6">
-              <img alt="USEC Logo" 
+              <img alt="HBC Logo"
                    className="h-8 w-auto brightness-0 invert" 
-                   src="/usec-navbar-logo.png" />
-              <span className="font-headline-sm text-headline-sm text-white">USEC.org</span>
+                   src="/hbc-logo.svg" />
+              <span className="font-headline-sm text-headline-sm text-white">HBC</span>
             </div>
             <p className="font-body-md text-body-md opacity-70">Creating sustainable futures through education, advocacy, and direct community action.</p>
           </div>
@@ -738,7 +738,7 @@ const activeProgramContent = programOptions[activeProgram];
           </div>
         </div>
         <div className="w-full border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-center md:text-left">
-          <p className="font-label-sm text-label-sm opacity-60">(c) 2024 United Safe Environment Creators (USEC). All rights reserved. Registered Charity.</p>
+          <p className="font-label-sm text-label-sm opacity-60">(c) 2024 Humanity Beyond Crisis (HBC). All rights reserved. Registered Charity.</p>
           <div className="flex gap-6">
             <a className="hover:text-vibrant-orange transition-colors" href="#"><span className="material-symbols-outlined">public</span></a>
             <a className="hover:text-vibrant-orange transition-colors" href="#"><span className="material-symbols-outlined">mail</span></a>

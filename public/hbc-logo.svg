@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1663 2048" role="img" aria-labelledby="title description">
+  <title id="title">Humanity Beyond Crisis</title>
+  <desc id="description">HBC logo with the organization's existing symbol.</desc>
+  <image href="/hbc-navbar-logo.png" width="1663" height="2048" />
+  <rect x="290" y="1040" width="1083" height="610" fill="#fff" />
+  <text x="831.5" y="1305" text-anchor="middle" fill="#f1870b" font-family="Georgia, serif" font-size="190" font-weight="700">HBC</text>
+  <text x="831.5" y="1435" text-anchor="middle" fill="#0b567d" font-family="Georgia, serif" font-size="72" font-weight="700">HUMANITY BEYOND</text>
+  <text x="831.5" y="1540" text-anchor="middle" fill="#0b567d" font-family="Georgia, serif" font-size="72" font-weight="700">CRISIS</text>
+</svg>

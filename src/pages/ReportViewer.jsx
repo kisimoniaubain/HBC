@@ -1,18 +1,17 @@
 import React, { useEffect } from 'react'
-import footerlogo from '../assets/logo.png'
 
 export default function ReportViewer() {
   const params = new URLSearchParams(window.location.search)
 
   const file = params.get('file')
-  const title = params.get('title') || 'USEC Report'
+  const title = params.get('title') || 'HBC Report'
 
   // Change the browser tab title
   useEffect(() => {
-    document.title = `${title} | USEC`
+    document.title = `${title} | HBC`
 
     return () => {
-      document.title = 'USEC.org'
+      document.title = 'HBC'
     }
   }, [title])
 
@@ -28,15 +27,15 @@ export default function ReportViewer() {
         <a href="/" className="flex shrink-0 items-center gap-1">
 
           <img
-            src={footerlogo}
-            alt="USEC logo"
+            src="/hbc-logo.svg"
+            alt="HBC logo"
             className="h-14 w-auto object-contain brightness-0 invert md:h-16"
           />
 
           <div className="mb-2 flex flex-col leading-none">
 
             <p className="text-xl font-extrabold tracking-tight md:text-2xl">
-              USEC<span className="font-normal">.org</span>
+              HBC<span className="font-normal text-vibrant-orange">.org</span>
             </p>
 
             <p className="mt-1 text-[8px] font-semibold uppercase tracking-[0.05em] md:text-[9px]">

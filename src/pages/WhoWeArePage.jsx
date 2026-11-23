@@ -20,7 +20,7 @@ function WhoWeArePage() {
               Nurturing heritage, fostering hope, and creating a sustainable future for all.
             </h1>
             <p className="font-body-lg text-body-lg text-white/90 max-w-xl">
-              United Safe Environment Creators is more than an organization; we are a collective of dreamers and doers dedicated to restoring dignity and safety to our global community.
+              Humanity Beyond Crisis is more than an organization; we are a collective of dreamers and doers dedicated to restoring dignity and safety to our global community.
             </p>
           </div>
         </div>
@@ -70,7 +70,7 @@ function WhoWeArePage() {
                 <div className="md:w-1/2 md:text-right pr-gutter">
                   <h3 className="font-headline-sm text-headline-sm text-deep-navy mb-2">2018: The Founding</h3>
                   <p className="font-body-md text-body-md text-on-surface-variant">
-                    USEC was established by a group of environmentalists and social workers moved by the urgent need for safe housing in coastal regions.
+                    HBC was established by a group of environmentalists and social workers moved by the urgent need for safe housing in coastal regions.
                   </p>
                 </div>
                 <div className="relative flex justify-center items-center">
@@ -96,7 +96,7 @@ function WhoWeArePage() {
                 <div className="md:w-1/2 md:text-right pr-gutter">
                   <h3 className="font-headline-sm text-headline-sm text-deep-navy mb-2">2023: Global Recognition</h3>
                   <p className="font-body-md text-body-md text-on-surface-variant">
-                    USEC was awarded the Heritage Guardian Prize for our innovative approach to combining environmental conservation with cultural preservation.
+                    HBC was awarded the Heritage Guardian Prize for our innovative approach to combining environmental conservation with cultural preservation.
                   </p>
                 </div>
                 <div className="relative flex justify-center items-center">
@@ -142,7 +142,7 @@ function WhoWeArePage() {
               </div>
               <h3 className="font-headline-sm text-headline-sm text-deep-navy mb-4">Compassion</h3>
               <p className="font-body-md text-body-md text-on-surface-variant">
-                Empathy is the heartbeat of USEC. We approach every challenge with kindness and a deep respect for human dignity.
+                Empathy is the heartbeat of HBC. We approach every challenge with kindness and a deep respect for human dignity.
               </p>
             </div>
 
@@ -185,11 +185,11 @@ function WhoWeArePage() {
         <div className="flex flex-col md:flex-row justify-between items-center px-margin-mobile md:px-margin-desktop py-12 gap-gutter max-w-container-max mx-auto">
           <div className="flex flex-col items-center md:items-start gap-4">
             <div className="flex items-center gap-3">
-              <img alt="USEC Logo" className="h-8 w-auto invert" src="/usec-navbar-logo.png" />
-              <span className="font-headline-sm text-white">USEC.org</span>
+              <img alt="HBC Logo" className="h-8 w-auto invert" src="/hbc-logo.svg" />
+              <span className="font-headline-sm text-white">HBC</span>
             </div>
             <p className="text-white/60 font-body-md text-body-md text-center md:text-left max-w-sm">
-              United Safe Environment Creators is a global non-profit dedicated to sustainable humanitarian development.
+              Humanity Beyond Crisis is a global non-profit dedicated to sustainable humanitarian development.
             </p>
           </div>
           <div className="flex flex-col items-center md:items-end gap-6">
@@ -198,7 +198,7 @@ function WhoWeArePage() {
               <a className="text-white/80 hover:text-white transition-colors duration-200 font-label-md text-label-md" href="/terms-of-service">Terms of Service</a>
               <a className="text-white/80 hover:text-white transition-colors duration-200 font-label-md text-label-md" href="/faqs">FAQ</a>
             </div>
-            <p className="text-white/40 text-sm font-body-md">(c) 2024 United Safe Environment Creators (USEC). All rights reserved.</p>
+            <p className="text-white/40 text-sm font-body-md">(c) 2024 Humanity Beyond Crisis (HBC). All rights reserved.</p>
           </div>
         </div>
       </section>
